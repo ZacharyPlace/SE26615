@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-<!doctype html>
-<html lang="en">
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 001428022
+ * Date: 10/19/2017
+ * Time: 11:28 AM
+ */
+?>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<form method="post" action="#">;
+    First Name: <input type="text" name="firstname" />
+    <br />
 
-    <title>Simple Database App</title>
+    Last Name: <input type="text" name="lastname" />
+    <br />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    Date of Birth: <input type="text" name="dob" />
+    <br />
 
-<body>
-<h1>Simple Database App</h1>
+    Height: <input type="text" name="height" />
+    <br />
 
-<ul>
-    <li><a href="home.php"><strong>Home</strong></a> - Actors</li>
-    <li><a href="add.php"><strong>Add</strong></a> - Add</li>
-    <li><a href="view.php"><strong>Add</strong></a> - View</li>
-</ul>
-
-</body>
-</html>
+    <input type="submit" name="action" value="Add" />
+</form>
