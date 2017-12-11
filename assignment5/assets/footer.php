@@ -11,7 +11,7 @@
 </section>
 
 <footer>
-    Copyright &copy; <?php echo date('Y'); ?> Nate Kupferschmid. All Rights Reserved.
+    Copyright &copy; <?php echo date('Y'); ?> Zachary Place. All Rights Reserved.
 </footer>
 
 </body>
